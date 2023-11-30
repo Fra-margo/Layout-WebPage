@@ -1,0 +1,25 @@
+@import "variabili";
+@import "bootstrap/scss/bootstrap.scss";
+
+body{
+    background-color: $coloreSfondo;
+}
+
+header{
+    background-color: $coloreHeader;
+    h1{
+        color:white;
+    }
+    p{
+        color: $coloreTestoHeader
+    }
+}
+
+
+footer{
+    color: $coloreLeggero;
+}
+
+footer a{
+    color: $coloreLeggero;
+}
